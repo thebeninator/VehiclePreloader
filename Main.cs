@@ -4,6 +4,7 @@ using UnityEngine;
 using VehiclePreloader;
 
 [assembly: MelonInfo(typeof(Mod), "Vehicle Preloader", "1.0.0", "ATLAS")]
+[assembly: MelonPriority(-1)]
 [assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 namespace VehiclePreloader
